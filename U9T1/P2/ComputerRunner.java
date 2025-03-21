@@ -1,5 +1,5 @@
+package P2;
 import java.lang.reflect.Method;
-
 
 public class ComputerRunner {
     public static void main(String[] args) {
@@ -125,5 +125,6 @@ public class ComputerRunner {
         System.out.println(computer1 instanceof Desktop);
         System.out.println(computer1 instanceof Laptop);
         System.out.println(computer1 instanceof Tablet);
+        laptop1.installOperatingSystem();
     }
 }

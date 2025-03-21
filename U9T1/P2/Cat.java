@@ -1,3 +1,5 @@
+package P2;
+
 public class Cat extends Animal {
     private boolean played = false;
 

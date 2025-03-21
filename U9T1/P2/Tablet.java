@@ -1,3 +1,5 @@
+package P2;
+
 public class Tablet extends Computer{
     private int screenSize;
     private int memory;

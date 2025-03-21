@@ -1,3 +1,5 @@
+package P2;
+
 public class Laptop extends Computer{
     private int screenSize;
     private int memory;
@@ -19,5 +21,10 @@ public class Laptop extends Computer{
         } else {
             System.out.println("No need to calibrate");
         }
+    }
+
+    @Override 
+    public void installOperatingSystem() {
+        System.out.println("installing OS for Laptop...");
     }
 } 

@@ -1,3 +1,5 @@
+package P2;
+
 public class Computer {
     private int screenSize;
     private int memory;

@@ -1,3 +1,5 @@
+package P2;
+
 public class Dog extends Animal{
     private boolean walked = false;
 
