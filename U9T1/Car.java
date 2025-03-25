@@ -17,7 +17,4 @@ public class Car extends Vehicle {
     public void lockDoors() {
         System.out.println("Doors Locked, Car Secure");
     }
-
-    @Override 
-    
 }
